@@ -1,0 +1,9 @@
+# PASTAS
+assets/
+
+# ARQUIVOS
+server.js
+.env
+
+package.json
+package-lock.json

@@ -22,7 +22,7 @@ header {
     margin-left: 1rem;
 }
 
-.logo img {
+.logo .img {
     width: 60px;
 }
 
@@ -43,6 +43,11 @@ nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+}
+
+a:hover {
+    color: #3a0613;
+    text-decoration: underline;
 }
 
 .social-links {
@@ -89,6 +94,7 @@ p {
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
+    justify-content: center;
     margin-top: 20px;
     font-size: 1.2em;
 }

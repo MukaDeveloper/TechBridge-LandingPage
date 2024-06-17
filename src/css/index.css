@@ -22,8 +22,10 @@ header {
     margin-left: 1rem;
 }
 
-.logo .img {
-    width: 60px;
+.logo img {
+    width: 120px;
+    padding: 0, auto;
+    margin: 0, auto;
 }
 
 nav ul {
@@ -36,16 +38,16 @@ nav ul {
 
 nav li {
     margin-right: 1.25rem;
-    padding-top: 0.1rem;
 }
 
 nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    padding: 0.5rem;
 }
 
-a:hover {
+a:hover, .selected {
     color: #3a0613;
     text-decoration: underline;
 }
@@ -78,7 +80,6 @@ a:hover {
 
 h1 {
     font-size: 2.5em;
-    margin-bottom: 20px;
 }
 
 p {
@@ -95,16 +96,16 @@ p {
     cursor: pointer;
     display: inline-block;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1rem;
     font-size: 1.2em;
 }
 
-.image-container {
+/* .image-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-}
+} */
 
 .image-container img {
     max-width: 500px;

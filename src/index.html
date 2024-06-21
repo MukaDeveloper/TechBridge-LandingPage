@@ -6,9 +6,11 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- JS -->
     <script src="js/index.js"></script>
+    <script src="css/bootstrap.bundle.min.js"></script>
 
     <!-- ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,22 +18,22 @@
     <title>TechBridge - Sua ponte à tecnologia</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/TechBridgeCompleto.png" alt="">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="logo d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+            <img src="assets/TechBridgeInLine.png" alt="">
         </div>
         <nav>
-            <ul>
-                <li><a href="#" class="selected">Início</a></li>
-                <li><a href="./our-mission.html">Sobre Nós</a></li>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="selected px-2 link-dark">Início</a></li>
+                <li><a href="./our-mission.html" class="px-2 link-dark">Sobre Nós</a></li>
             </ul>
         </nav>
         <div class="social-links">
-            <a href="#"><i class="fa fa-instagram" style="font-size: 2.5rem"></i></a>
-            <a href="#"><i class="fa fa-linkedin" style="font-size: 2.5rem"></i></a>
+            <a href="#"><img src="./assets/Instagram.png" alt="" style="width: 3rem;"></a>
+            <a href="#"><img src="./assets/Linkedin.png" alt="" style="width: 3rem;"></img></a>
         </div>
     </header>
-    <div class="main">
+    <!-- <div class="main container-md">
         <section class="main-content">
             <div class="main-content-left">
                 <div class="main-content-left-text">
@@ -40,13 +42,25 @@
                 </div>
                 <button class="cta-button" onclick="saibaMais()">Saiba Mais -></button>
             </div>
+            <div class="main-content-right">
+                <img src="./assets/HomeImage.png" alt="">
+            </div>
         </section>
+    </div> -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Você não precisa quebrar a cabeça com seu estoque!</h1>
+                <p>A StockTrack é uma plataforma que conecta tudo que você precisa para facilitar o monitoramento e gerenciamento do seu almoxarifado!</p>
+                <button class="btn btn-primary" onclick="saibaMais()">Saiba Mais -></button>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/HomeImage.png" alt="Imagem ilustrativa" class="img-fluid" style="max-width: 75% !important;">
+            </div>
+        </div>
     </div>
     <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2024 TechBridge. Todos os direitos reservados.</p>
-        </div>
-        <div class="wave"></div>
+        <img src="./assets/FooterWave.png" alt="" style="width: 100%;">
     </footer>
 </body>
 </html>

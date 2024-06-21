@@ -6,9 +6,11 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- JS -->
     <script src="js/index.js"></script>
+    <script src="css/bootstrap.bundle.min.js"></script>
 
     <!-- ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,37 +18,52 @@
     <title>TechBridge - Conectando você à tecnologia</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/TechBridgeCompleto.png" alt="">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="logo d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+            <img src="assets/TechBridgeInLine.png" alt="">
         </div>
         <nav>
-            <ul>
-                <li><a href="./index.html">Início</a></li>
-                <li><a href="#" class="selected">Sobre Nós</a></li>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="./index.html" class="px-2 link-dark">Início</a></li>
+                <li><a href="#" class="selected px-2 link-dark">Sobre Nós</a></li>
             </ul>
         </nav>
         <div class="social-links">
-            <a href="#"><i class="fa fa-instagram" style="font-size: 2.5rem"></i></a>
-            <a href="#"><i class="fa fa-linkedin" style="font-size: 2.5rem"></i></a>
+            <a href="#"><img src="./assets/Instagram.png" alt="" style="width: 3rem;"></a>
+            <a href="#"><img src="./assets/Linkedin.png" alt="" style="width: 3rem;"></img></a>
         </div>
     </header>
-    <div class="main" style="max-height: 40%;">
+    <!-- <div class="container mt-5" style="max-height: 40%;">
         <section class="main-content">
             <div class="paragraph">
                 <h2>Sobre nós</h2>
                 <p>Somos uma empresa StartUp em tecnologia e desenvolvimento de softwares, com sistemas focados a serviço de monitoramento e manutenção de almoxarifados.</p>
-                <p>Nossa equipe se baseia em necessidades reais com pesquisas frequentes em situações de empresas/instituições que possuem desde pequeno, médio a grande porte de estoques e/ou almoxarifados.</p>
+                <p>Nossa equipe se baseia em necessidades reais com pesquisas frequentes em situações de empresas e instituições que possuem desde pequeno, médio a grande porte de estoques e/ou almoxarifados.</p>
                 <br>
                 <p>Temos como objetivo principal conectar a usabilidade, versatilidade e facilidade da tecnologia a pronta entrega, integrando as capacidades individuais de nossa equipe, para garantir um ótimo desempenho nos nossos produtos.</p>
             </div>
         </section>
+    </div> -->
+    <div class="container my-5">
+        <div class="mb-4" style="padding-bottom: 2rem;">
+            <h2 class="fw-bold" style="color: #3268B7">MISSÃO:</h2>
+            <p>Fornecer um sistema de gestão de almoxarifado eficiente, confiável e acessível para instituições de ensino, otimizando o controle de estoque, reduzindo custos e impulsionando a organização.</p>
+        </div>
+        
+        <div class="mb-4" style="padding-bottom: 2rem;">
+            <h2 class="fw-bold" style="color: #3268B7">VISÃO:</h2>
+            <p>Ser a solução líder em gestão de almoxarifado para o setor educacional, reconhecida pela excelência tecnológica, compromisso com a qualidade e impacto positivo na comunidade acadêmica.</p>
+        </div>
+
+        <div class="mb-4">
+            <h2 class="fw-bold" style="color: #3268B7">VALORES:</h2>
+            <p><strong>Compromisso:</strong> Dedicamo-nos a atender às necessidades de nossos clientes com excelência, construindo relacionamentos duradouros e de confiança.</p>
+            <p><strong>Eficiência:</strong> Buscamos a excelência operacional, otimizando processos e eliminando desperdícios.</p>
+            <p><strong>Confiabilidade:</strong> Priorizamos a segurança e precisão das informações, garantindo a integridade dos dados.</p>
+        </div>
     </div>
     <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2024 TechBridge. Todos os direitos reservados.</p>
-        </div>
-        <div class="wave"></div>
+        <img src="./assets/FooterWave.png" alt="" style="width: 100%;">
     </footer>
 </body>
 </html>
